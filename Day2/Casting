@@ -1,9 +1,11 @@
-Lab: Casting Data Types
-Objectives
+## **Lab: Casting Data Types**
+
+**Objectives**
+
 Create statements that utilize casting to convert one datatype to another.
  
 
-Background
+**Background**
 Casting a data type to another allows you to convert one similar type to another. Really, this is only used for numbers as you can’t cast an int to a boolean.
 
 To cast one type to another, you’ll specify the type that you want to cast to in parenthesis in front of the variable that you are converting.
@@ -30,23 +32,23 @@ Start a new project labeled, CastingDatatypes, and create a new class called Exa
 
 Copy the following code into your editor:
 
-public class Example {
+   public class Example {
 
-   public static void main(String[] args){
+      public static void main(String[] args){
 
-        //initial values
+           //initial values
 
-       int i = 200;
+          int i = 200;
 
-            //cast to a short
+               //cast to a short
 
-short s = (short)i;
+   short s = (short)i;
 
-System.out.println(s);
+   System.out.println(s);
 
-   }
+    }
 
-}       
+   }       
 
 Save the file and run the program.
 
